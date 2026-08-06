@@ -1,143 +1,130 @@
 <div align="center">
 
-# Gustavo Silva Cruz
+<img src="./assets/profile-shell.svg" width="100%" alt="Interface em estilo terminal inspirada em shells Linux">
 
-### Software Developer · Linux Enthusiast · Problem Solver
+<br>
 
-```text
-software engineering · operating systems · data structures · mathematics
-```
-
-Desenvolvedor interessado em compreender sistemas desde seus fundamentos até a construção de aplicações completas.
-
-Trabalho com desenvolvimento de software, automações, integrações entre serviços e interfaces web. Tenho interesse especial por sistemas operacionais, estruturas de dados, matemática, redes de computadores e arquitetura de software.
+<code>software engineering</code> · <code>operating systems</code> · <code>data structures</code> · <code>mathematics</code>
 
 </div>
 
----
+<br>
 
-## `whoami`
+<table>
+<tr>
+<td width="58%" valign="top">
 
-```bash
-$ whoami
-gustavo
+~/about
 
-$ uname -a
-Arch Linux · Wayland · Sway
+Desenvolvedor interessado em compreender sistemas abaixo da camada de abstração.
 
-$ cat interests.txt
-Operating Systems
-Data Structures
-Mathematics
-Computer Networks
-Software Architecture
-Automation
-```
+Gosto de investigar como sistemas operacionais organizam processos, memória, arquivos e dispositivos; como estruturas de dados moldam o custo de um algoritmo; e como a matemática ajuda a descrever problemas de forma precisa.
 
-Gosto de estudar como as ferramentas funcionam internamente, não apenas como utilizá-las.
+Meu trabalho envolve aplicações web, automações, integrações, bancos de dados e interfaces. Meu objetivo, porém, não é apenas usar ferramentas: é entender os fundamentos que tornam essas ferramentas possíveis.
 
-Meu foco está em desenvolver uma base sólida em ciência da computação e aplicar esses conhecimentos na criação de sistemas organizados, eficientes e visualmente bem construídos.
+while (curiosity) {
+    study();
+    build();
+    measure();
+    improve();
+}
 
----
+</td>
+<td width="42%" valign="top">
 
-## Áreas de interesse
+system.status
 
-```text
-01. Sistemas Operacionais
-02. Estruturas de Dados e Algoritmos
-03. Matemática aplicada à computação
-04. Redes de Computadores
-05. Arquitetura e Engenharia de Software
-06. Bancos de Dados
-07. Automações e integrações
-08. Interfaces e visualização de dados
-```
+os: Arch Linux
+session: Wayland
+compositor: Sway
+terminal: Kitty
+editors:
+  - Neovim
+  - JetBrains
+state: learning_and_building
 
-Tenho particular interesse por assuntos como processos, memória, sistemas de arquivos, protocolos de rede, modelagem de dados, complexidade de algoritmos e organização interna de sistemas.
+</td>
+</tr>
+</table>
 
----
+focus --current
 
-## Tecnologias
+<table>
+<tr>
+<td width="25%" align="center">
+<h3>◉ Sistemas</h3>
+<sub>processos · memória · kernel · sistemas de arquivos</sub>
+</td>
+<td width="25%" align="center">
+<h3>⌘ Estruturas</h3>
+<sub>algoritmos · complexidade · organização de dados</sub>
+</td>
+<td width="25%" align="center">
+<h3>∑ Matemática</h3>
+<sub>lógica · álgebra linear · probabilidade · discreta</sub>
+</td>
+<td width="25%" align="center">
+<h3>⇄ Redes</h3>
+<sub>TCP/IP · sockets · DNS · CIDR · protocolos</sub>
+</td>
+</tr>
+</table>
 
-### Linguagens
+stack --inspect
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,go,html,css" alt="Linguagens" />
-</p>
+languages    Python · TypeScript · JavaScript · Go · SQL
+frontend     React · Vite · Tailwind CSS
+backend      Node.js · APIs REST · Webhooks · Automations
+data         PostgreSQL · Supabase
+systems      Linux · Bash · Git · Docker
+graphics     Three.js · Babylon.js · interfaces 2D/isométricas
 
-### Desenvolvimento
+projects --active
 
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,tailwind,git,github,vite" alt="Desenvolvimento" />
-</p>
+┌─────────────────────────────────────────────────────────────────────┐
+│ AgentSpace                                                         │
+│ Plataforma multiempresa com agentes, departamentos e sede digital. │
+├─────────────────────────────────────────────────────────────────────┤
+│ Automation Workflows                                                │
+│ Integrações entre APIs, webhooks, n8n e serviços externos.          │
+├─────────────────────────────────────────────────────────────────────┤
+│ Interactive Interfaces                                              │
+│ Grids 2D, ambientes isométricos e visualizações orientadas a dados. │
+└─────────────────────────────────────────────────────────────────────┘
 
-### Dados e infraestrutura
+principles.conf
 
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,supabase,linux,bash,docker" alt="Dados e infraestrutura" />
-</p>
+[engineering]
+clarity = true
+unnecessary_complexity = false
+understand_before_abstracting = true
+measure_before_optimizing = true
 
-### Ambiente
+[architecture]
+small_components = true
+explicit_data_flow = true
+incremental_evolution = true
+maintainability = required
 
-```text
-OS          Arch Linux
-Session     Wayland
-WM          Sway
-Terminal    Kitty
-Editor      Neovim / JetBrains
-Versioning  Git + GitHub
-```
+[learning]
+foundations_over_trends = true
+curiosity = persistent
 
----
+<details>
+<summary><strong>▸ Estudos atuais</strong></summary>
 
-## O que estou construindo
+<br>
 
-Atualmente trabalho em projetos envolvendo:
-
-* dashboards para gerenciamento de plataformas e produtos;
-* automações e workflows com APIs, webhooks e payloads JSON;
-* integração entre aplicações, Supabase e serviços externos;
-* sistemas multiempresa com agentes e departamentos;
-* interfaces React e TypeScript;
-* visualizações interativas em grids 2D e ambientes isométricos;
-* ferramentas internas para organização de processos e informações.
-
-Um dos meus projetos em desenvolvimento é o **AgentSpace**, uma plataforma com dashboards, agentes, departamentos, autenticação e uma sede digital interativa.
-
----
-
-## Como penso sobre desenvolvimento
-
-```text
-Clareza > complexidade desnecessária
-Fundamentos > dependência cega de ferramentas
-Componentes pequenos > estruturas monolíticas
-Evolução incremental > reescritas sem necessidade
-Compreensão > memorização
-```
-
-Procuro construir software que seja:
-
-```text
-[✓] compreensível
-[✓] modular
-[✓] consistente
-[✓] visualmente organizado
-[✓] simples de manter
-[✓] tecnicamente fundamentado
-```
-
----
-
-## Estudos atuais
-
-```python
 current_studies = {
-    "computer_science": [
+    "systems": [
         "operating systems",
+        "computer networks",
+        "software architecture",
+    ],
+    "computer_science": [
         "data structures",
         "algorithms",
-        "computer networks",
+        "complexity analysis",
     ],
     "mathematics": [
         "logic",
@@ -145,55 +132,29 @@ current_studies = {
         "linear algebra",
         "probability",
     ],
-    "engineering": [
-        "software architecture",
-        "database modeling",
-        "distributed systems",
-    ],
 }
-```
 
-Também estudo redes de computadores, incluindo TCP/IP, modelo OSI, sockets, DNS, ARP, endereçamento IP, CIDR e subnetting.
+</details>
 
----
-
-## Objetivos
-
-Meu objetivo é aprofundar meus conhecimentos em ciência da computação e engenharia de software, desenvolvendo projetos que combinem:
-
-```text
-fundamentos sólidos
-        +
-boa arquitetura
-        +
-interfaces bem construídas
-        +
-soluções para problemas reais
-```
-
----
-
-<div align="center">
-
-```text
-while (curiosity) {
-    study();
-    build();
-    understand();
-    improve();
-}
-```
+<details>
+<summary><strong>▸ Ambiente de desenvolvimento</strong></summary>
 
 <br>
 
-<img
-src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&hide_border=true&theme=transparent"
-alt="GitHub Stats"
-/>
+Arch Linux
+└── Wayland
+    └── Sway
+        ├── Kitty
+        ├── Fuzzel
+        ├── Neovim
+        └── JetBrains
 
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&hide_border=true&theme=transparent"
-alt="Linguagens mais utilizadas"
-/>
+</details>
+
+<br>
+
+<div align="center">
+
+rooted in fundamentals · driven by curiosity · built with intention
 
 </div>
