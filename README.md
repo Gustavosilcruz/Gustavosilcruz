@@ -1,99 +1,151 @@
 <div align="center">
 
-<img src="./assets/profile-shell.svg" width="100%" alt="Interface em estilo terminal inspirada em shells Linux">
+# Gustavo Silva Cruz
 
-<br>
+### Software Developer · Linux Enthusiast · Problem Solver
 
-<code>software engineering</code> · <code>operating systems</code> · <code>data structures</code> · <code>mathematics</code>
+`software engineering` · `operating systems` · `data structures` · `mathematics`
+
+---
+
+> Desenvolvedor interessado em compreender sistemas abaixo da camada de abstração.
 
 </div>
 
-<br>
+## `~/about`
 
-<table>
-<tr>
-<td width="58%" valign="top">
+Gosto de investigar como sistemas operacionais organizam processos, memória, arquivos e dispositivos; como estruturas de dados influenciam o custo de um algoritmo; e como a matemática ajuda a representar problemas de forma precisa.
 
-~/about
+Meu trabalho envolve aplicações web, automações, integrações, bancos de dados e interfaces. Meu objetivo, porém, não é apenas utilizar ferramentas: é entender os fundamentos que tornam essas ferramentas possíveis.
 
-Desenvolvedor interessado em compreender sistemas abaixo da camada de abstração.
-
-Gosto de investigar como sistemas operacionais organizam processos, memória, arquivos e dispositivos; como estruturas de dados moldam o custo de um algoritmo; e como a matemática ajuda a descrever problemas de forma precisa.
-
-Meu trabalho envolve aplicações web, automações, integrações, bancos de dados e interfaces. Meu objetivo, porém, não é apenas usar ferramentas: é entender os fundamentos que tornam essas ferramentas possíveis.
-
+```c
 while (curiosity) {
     study();
     build();
     measure();
     improve();
 }
+```
 
-</td>
-<td width="42%" valign="top">
+---
 
-system.status
+## `system.status`
 
+```yaml
+name: Gustavo Silva Cruz
 os: Arch Linux
 session: Wayland
 compositor: Sway
 terminal: Kitty
+
 editors:
   - Neovim
   - JetBrains
-state: learning_and_building
 
-</td>
-</tr>
-</table>
+status: learning_and_building
+```
 
-focus --current
+---
 
-<table>
-<tr>
-<td width="25%" align="center">
-<h3>◉ Sistemas</h3>
-<sub>processos · memória · kernel · sistemas de arquivos</sub>
-</td>
-<td width="25%" align="center">
-<h3>⌘ Estruturas</h3>
-<sub>algoritmos · complexidade · organização de dados</sub>
-</td>
-<td width="25%" align="center">
-<h3>∑ Matemática</h3>
-<sub>lógica · álgebra linear · probabilidade · discreta</sub>
-</td>
-<td width="25%" align="center">
-<h3>⇄ Redes</h3>
-<sub>TCP/IP · sockets · DNS · CIDR · protocolos</sub>
-</td>
-</tr>
-</table>
+## `focus --current`
 
-stack --inspect
+### ◉ Sistemas Operacionais
 
-languages    Python · TypeScript · JavaScript · Go · SQL
-frontend     React · Vite · Tailwind CSS
-backend      Node.js · APIs REST · Webhooks · Automations
-data         PostgreSQL · Supabase
-systems      Linux · Bash · Git · Docker
-graphics     Three.js · Babylon.js · interfaces 2D/isométricas
+Processos, memória, kernel, sistemas de arquivos, gerenciamento de recursos e funcionamento interno do Linux.
 
-projects --active
+### ⌘ Estruturas de Dados
 
-┌─────────────────────────────────────────────────────────────────────┐
-│ AgentSpace                                                         │
-│ Plataforma multiempresa com agentes, departamentos e sede digital. │
-├─────────────────────────────────────────────────────────────────────┤
-│ Automation Workflows                                                │
-│ Integrações entre APIs, webhooks, n8n e serviços externos.          │
-├─────────────────────────────────────────────────────────────────────┤
-│ Interactive Interfaces                                              │
-│ Grids 2D, ambientes isométricos e visualizações orientadas a dados. │
-└─────────────────────────────────────────────────────────────────────┘
+Algoritmos, análise de complexidade, organização de dados e escolha de estruturas adequadas para cada problema.
 
-principles.conf
+### ∑ Matemática
 
+Lógica, matemática discreta, álgebra linear, probabilidade e aplicações matemáticas na computação.
+
+### ⇄ Redes de Computadores
+
+TCP/IP, sockets, DNS, ARP, CIDR, subnetting, protocolos e comunicação entre sistemas.
+
+---
+
+## `stack --inspect`
+
+```text
+Languages
+├── Python
+├── TypeScript
+├── JavaScript
+├── Go
+└── SQL
+
+Frontend
+├── React
+├── Vite
+├── Tailwind CSS
+└── HTML / CSS
+
+Backend & Automation
+├── Node.js
+├── REST APIs
+├── Webhooks
+├── n8n
+└── Integrations
+
+Data
+├── PostgreSQL
+└── Supabase
+
+Systems & Tools
+├── Linux
+├── Bash
+├── Git
+├── GitHub
+└── Docker
+
+Graphics & Interfaces
+├── Three.js
+├── Babylon.js
+├── 2D grids
+└── Isometric interfaces
+```
+
+---
+
+## `projects --active`
+
+### AgentSpace
+
+Plataforma multiempresa com agentes, departamentos, autenticação, dashboards e uma sede digital interativa.
+
+```text
+status      development
+frontend    React + TypeScript
+database    Supabase
+focus       architecture · interfaces · multi-tenant
+```
+
+### Automation Workflows
+
+Automações e integrações entre APIs, webhooks, n8n, bancos de dados e serviços externos.
+
+```text
+status      active
+focus       reliability · payloads · data flow
+```
+
+### Interactive Interfaces
+
+Experimentos com grids 2D, ambientes isométricos, visualização de dados e interfaces interativas.
+
+```text
+status      research
+focus       performance · usability · visual systems
+```
+
+---
+
+## `principles.conf`
+
+```ini
 [engineering]
 clarity = true
 unnecessary_complexity = false
@@ -109,12 +161,13 @@ maintainability = required
 [learning]
 foundations_over_trends = true
 curiosity = persistent
+```
 
-<details>
-<summary><strong>▸ Estudos atuais</strong></summary>
+---
 
-<br>
+## `studies --list`
 
+```python
 current_studies = {
     "systems": [
         "operating systems",
@@ -133,14 +186,13 @@ current_studies = {
         "probability",
     ],
 }
+```
 
-</details>
+---
 
-<details>
-<summary><strong>▸ Ambiente de desenvolvimento</strong></summary>
+## `environment --tree`
 
-<br>
-
+```text
 Arch Linux
 └── Wayland
     └── Sway
@@ -148,13 +200,26 @@ Arch Linux
         ├── Fuzzel
         ├── Neovim
         └── JetBrains
+```
 
-</details>
+---
 
-<br>
+## `goals --next`
+
+```text
+01. Aprofundar conhecimentos em sistemas operacionais
+02. Evoluir em estruturas de dados e algoritmos
+03. Fortalecer a base matemática
+04. Construir sistemas com boa arquitetura
+05. Criar interfaces úteis, rápidas e visualmente consistentes
+```
+
+---
 
 <div align="center">
 
+```text
 rooted in fundamentals · driven by curiosity · built with intention
+```
 
 </div>
