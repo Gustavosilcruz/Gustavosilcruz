@@ -1,0 +1,58 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Gustavo Silva Cruz — Software Developer</title>
+  <desc id="desc">Uma janela de terminal com o nome de Gustavo e seus focos em sistemas, estruturas de dados e matemática.</desc>
+
+  <defs>
+    <linearGradient id="panel" x1="62" y1="26" x2="1138" y2="314" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111820" />
+      <stop offset="1" stop-color="#0D1117" />
+    </linearGradient>
+    <linearGradient id="accent" x1="87" y1="0" x2="1034" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF" />
+      <stop offset="1" stop-color="#7DD3FC" />
+    </linearGradient>
+    <clipPath id="window">
+      <rect x="26" y="20" width="1148" height="300" rx="18" />
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="340" rx="24" fill="#080C11" />
+  <rect x="26.5" y="20.5" width="1147" height="299" rx="17.5" fill="url(#panel)" stroke="#30363D" />
+
+  <g clip-path="url(#window)">
+    <path d="M27 65.5H1173" stroke="#30363D" />
+    <circle cx="53" cy="43" r="6" fill="#FF6B6B" />
+    <circle cx="75" cy="43" r="6" fill="#FFD166" />
+    <circle cx="97" cy="43" r="6" fill="#2DD4BF" />
+    <text x="600" y="48" fill="#7D8590" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" text-anchor="middle">gustavo@arch: ~</text>
+
+    <g opacity="0.16">
+      <path d="M760 66V320M855 66V320M950 66V320M1045 66V320M1140 66V320" stroke="#7DD3FC" />
+      <path d="M725 101H1174M725 151H1174M725 201H1174M725 251H1174M725 301H1174" stroke="#7DD3FC" />
+    </g>
+
+    <text x="72" y="112" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="17">
+      <tspan fill="#2DD4BF">gustavo@arch</tspan><tspan fill="#8B949E">:</tspan><tspan fill="#7DD3FC">~</tspan><tspan fill="#E6EDF3">$ whoami</tspan>
+    </text>
+    <text x="72" y="170" fill="#F0F6FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="-1">Gustavo Silva Cruz</text>
+    <rect x="72" y="190" width="548" height="3" rx="1.5" fill="url(#accent)" />
+    <text x="72" y="227" fill="#B1BAC4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Software Developer · Linux Enthusiast</text>
+    <text x="72" y="264" fill="#7D8590" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15">systems · algorithms · interfaces · mathematics</text>
+
+    <g transform="translate(772 102)">
+      <text fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">CURRENT_FOCUS</text>
+      <g transform="translate(0 28)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">
+        <circle cx="5" cy="6" r="5" fill="#2DD4BF" />
+        <text x="24" y="12" fill="#E6EDF3">Operating systems</text>
+        <circle cx="5" cy="49" r="5" fill="#2DD4BF" />
+        <text x="24" y="55" fill="#E6EDF3">Data structures</text>
+        <circle cx="5" cy="92" r="5" fill="#2DD4BF" />
+        <text x="24" y="98" fill="#E6EDF3">Interactive systems</text>
+      </g>
+      <text x="0" y="194" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">status: learning_and_building</text>
+      <rect x="249" y="181" width="9" height="18" rx="1" fill="#7DD3FC">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>

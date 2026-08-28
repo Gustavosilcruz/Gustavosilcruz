@@ -1,225 +1,64 @@
 <div align="center">
 
-# Gustavo Silva Cruz
+<img src="./assets/terminal-header.svg" width="100%" alt="Terminal apresentando Gustavo Silva Cruz, software developer focado em sistemas e fundamentos" />
 
-### Software Developer · Linux Enthusiast · Problem Solver
+<br />
 
-`software engineering` · `operating systems` · `data structures` · `mathematics`
-
----
-
-> Desenvolvedor interessado em compreender sistemas abaixo da camada de abstração.
+<a href="https://github.com/Gustavosilcruz?tab=repositories"><img src="https://img.shields.io/badge/Explorar_repositórios-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="Explorar repositórios" /></a>
 
 </div>
 
-## `~/about`
+## `./about`
 
-Gosto de investigar como sistemas operacionais organizam processos, memória, arquivos e dispositivos; como estruturas de dados influenciam o custo de um algoritmo; e como a matemática ajuda a representar problemas de forma precisa.
-
-Meu trabalho envolve aplicações web, automações, integrações, bancos de dados e interfaces. Meu objetivo, porém, não é apenas utilizar ferramentas: é entender os fundamentos que tornam essas ferramentas possíveis.
+Desenvolvedor de software interessado no que existe abaixo das abstrações. Construo aplicações web, automações e interfaces enquanto aprofundo fundamentos de sistemas, algoritmos e matemática.
 
 ```c
-while (curiosity) {
-    study();
-    build();
-    measure();
-    improve();
-}
+while (curiosity) { study(); build(); measure(); improve(); }
 ```
 
----
+## `./now`
 
-## `system.status`
+| Foco | Explorando |
+| --- | --- |
+| **Sistemas** | processos, memória, Linux e redes |
+| **Ciência da Computação** | estruturas de dados, algoritmos e complexidade |
+| **Engenharia** | arquitetura, integrações e interfaces interativas |
+| **Matemática** | lógica, matemática discreta e álgebra linear |
 
-```yaml
-name: Gustavo Silva Cruz
-os: Arch Linux
-session: Wayland
-compositor: Sway
-terminal: Kitty
+## `./building`
 
-editors:
-  - Neovim
-  - JetBrains
+- **AgentSpace** — plataforma multiempresa com agentes, dashboards e uma sede digital interativa.
+- **Automation Workflows** — integrações confiáveis entre APIs, webhooks, n8n e bancos de dados.
+- **Interactive Interfaces** — experimentos com grids 2D, ambientes isométricos e visualização de dados.
 
-status: learning_and_building
-```
+## `./toolbox`
 
----
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,js,go,react,nodejs,postgres,supabase,linux,docker,git,neovim&theme=dark&perline=12" alt="Python, TypeScript, JavaScript, Go, React, Node.js, PostgreSQL, Supabase, Linux, Docker, Git e Neovim" />
+</p>
 
-## `focus --current`
+<details>
+<summary><strong>Ver stack e ferramentas</strong></summary>
 
-### ◉ Sistemas Operacionais
+| Área | Tecnologias |
+| --- | --- |
+| Frontend | React, Vite, Tailwind CSS, Three.js, Babylon.js |
+| Backend | Node.js, REST APIs, webhooks, n8n |
+| Dados | PostgreSQL, Supabase, SQL |
+| Ambiente | Arch Linux, Wayland, Sway, Bash, Docker |
 
-Processos, memória, kernel, sistemas de arquivos, gerenciamento de recursos e funcionamento interno do Linux.
+</details>
 
-### ⌘ Estruturas de Dados
-
-Algoritmos, análise de complexidade, organização de dados e escolha de estruturas adequadas para cada problema.
-
-### ∑ Matemática
-
-Lógica, matemática discreta, álgebra linear, probabilidade e aplicações matemáticas na computação.
-
-### ⇄ Redes de Computadores
-
-TCP/IP, sockets, DNS, ARP, CIDR, subnetting, protocolos e comunicação entre sistemas.
-
----
-
-## `stack --inspect`
+<details>
+<summary><strong>Princípios de engenharia</strong></summary>
 
 ```text
-Languages
-├── Python
-├── TypeScript
-├── JavaScript
-├── Go
-└── SQL
-
-Frontend
-├── React
-├── Vite
-├── Tailwind CSS
-└── HTML / CSS
-
-Backend & Automation
-├── Node.js
-├── REST APIs
-├── Webhooks
-├── n8n
-└── Integrations
-
-Data
-├── PostgreSQL
-└── Supabase
-
-Systems & Tools
-├── Linux
-├── Bash
-├── Git
-├── GitHub
-└── Docker
-
-Graphics & Interfaces
-├── Three.js
-├── Babylon.js
-├── 2D grids
-└── Isometric interfaces
+entender antes de abstrair · medir antes de otimizar
+fluxos explícitos · componentes pequenos · evolução incremental
 ```
+
+</details>
 
 ---
 
-## `projects --active`
-
-### AgentSpace
-
-Plataforma multiempresa com agentes, departamentos, autenticação, dashboards e uma sede digital interativa.
-
-```text
-status      development
-frontend    React + TypeScript
-database    Supabase
-focus       architecture · interfaces · multi-tenant
-```
-
-### Automation Workflows
-
-Automações e integrações entre APIs, webhooks, n8n, bancos de dados e serviços externos.
-
-```text
-status      active
-focus       reliability · payloads · data flow
-```
-
-### Interactive Interfaces
-
-Experimentos com grids 2D, ambientes isométricos, visualização de dados e interfaces interativas.
-
-```text
-status      research
-focus       performance · usability · visual systems
-```
-
----
-
-## `principles.conf`
-
-```ini
-[engineering]
-clarity = true
-unnecessary_complexity = false
-understand_before_abstracting = true
-measure_before_optimizing = true
-
-[architecture]
-small_components = true
-explicit_data_flow = true
-incremental_evolution = true
-maintainability = required
-
-[learning]
-foundations_over_trends = true
-curiosity = persistent
-```
-
----
-
-## `studies --list`
-
-```python
-current_studies = {
-    "systems": [
-        "operating systems",
-        "computer networks",
-        "software architecture",
-    ],
-    "computer_science": [
-        "data structures",
-        "algorithms",
-        "complexity analysis",
-    ],
-    "mathematics": [
-        "logic",
-        "discrete mathematics",
-        "linear algebra",
-        "probability",
-    ],
-}
-```
-
----
-
-## `environment --tree`
-
-```text
-Arch Linux
-└── Wayland
-    └── Sway
-        ├── Kitty
-        ├── Fuzzel
-        ├── Neovim
-        └── JetBrains
-```
-
----
-
-## `goals --next`
-
-```text
-01. Aprofundar conhecimentos em sistemas operacionais
-02. Evoluir em estruturas de dados e algoritmos
-03. Fortalecer a base matemática
-04. Construir sistemas com boa arquitetura
-05. Criar interfaces úteis, rápidas e visualmente consistentes
-```
-
----
-
-<div align="center">
-
-```text
-rooted in fundamentals · driven by curiosity · built with intention
-```
-
-</div>
+<p align="center"><sub>rooted in fundamentals · driven by curiosity · built with intention</sub></p>
